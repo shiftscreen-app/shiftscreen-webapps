@@ -100,7 +100,7 @@
                 "enabled": true,
             },
             "entryPoint": "https://sheets.google.com/document",
-            "color": "000000",
+            "color": "ffffff",
             "buttonColor": "ffffff",
             "forceSync": true,
             "scripts": [
