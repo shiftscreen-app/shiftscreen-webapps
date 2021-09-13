@@ -81,7 +81,7 @@
                 "enabled": true,
             },
             "entryPoint": "https://docs.google.com/document",
-            "color": "ffffff",
+            "color": "000000",
             "buttonColor": "ffffff",
             "forceSync": true,
             "scripts": [
