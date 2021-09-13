@@ -1,0 +1,150 @@
+{
+    "webapps": [
+        {
+            "app":
+            {
+                "id": 7,
+                "name": "Google Meet",
+                "icon": "app.meet",
+                "enabled": true,
+                "allowsMultipleWindows": false
+            },
+            "entryPoint": "apps.google.com/meet/",
+            "useHomeView": true,
+            "color": "ffffff",
+            "buttonColor": "2e3582",
+            "values": [
+                "https://meet.google.com/new",
+                "https://meet.google.com",
+                "https://apps.google.com/meet",
+            ]
+        },
+        {
+            "app":
+            {
+                "id": 14,
+                "name": "Notion",
+                "icon": "app.notion",
+                "enabled": true
+            },
+            "entryPoint": "https://www.notion.so/login",
+            "useHomeView": false,
+            "color": "f7f6f3",
+            "buttonColor": "7e2b80"
+        },
+        {
+            "app":
+            {
+                "id": 13,
+                "name": "Slack",
+                "icon": "app.slack",
+                "enabled": true
+            },
+            "entryPoint": "https://slack.com/signin#/signin",
+            "useHomeView": false,
+            "color": "3F0E40",
+            "buttonColor": "7e2b80",
+            "useThemeColor": true,
+        },
+        {
+            "app":
+            {
+                "id": 10,
+                "name": "Linear",
+                "icon": "app.linear",
+                "enabled": true,
+                "allowsMultipleWindows": false
+            },
+            "entryPoint": "https://linear.app/login",
+            "useHomeView": true,
+            "color": "3e469c",
+            "buttonColor": "2e3582",
+        },
+        {
+            "app":
+            {
+                "id": 11,
+                "name": "Teams",
+                "icon": "app.teams",
+                "enabled": false,
+            },
+            "entryPoint": "https://linear.app/login",
+            "color": "3e469c",
+            "buttonColor": "2e3582",
+        },
+        {
+            "app":
+            {
+                "id": 12,
+                "name": "Google Docs",
+                "icon": "app.docs",
+                "enabled": true,
+            },
+            "entryPoint": "https://docs.google.com/document",
+            "color": "ffffff",
+            "buttonColor": "ffffff",
+            "forceSync": true,
+            "scripts": [
+                "const logo = document.getElementById('docs-branding-container'); logo.parentElement.removeChild(logo);",
+                "var cssElements = document.querySelectorAll('#docs-titlebar-container'); for (let i = 0; i < cssElements.length; i++) { cssElements[i].style.marginLeft = '0px'; }",
+                "cssElements = document.querySelectorAll('.docs-menubar'); for (let i = 0; i < cssElements.length; i++) { cssElements[i].style.marginLeft = '0px'; }",
+                "cssElements = document.getElementsByClassName('docs-ml-promotion'); for (let i = 0; i < cssElements.length; i++) { cssElements[i].parentElement.removeChild(cssElements[i]); }",
+            ],
+        },
+        {
+            "app":
+            {
+                "id": 15,
+                "name": "Google Sheets",
+                "icon": "app.sheets",
+                "enabled": true,
+            },
+            "entryPoint": "https://sheets.google.com/document",
+            "color": "ffffff",
+            "buttonColor": "ffffff",
+            "forceSync": true,
+            "scripts": [
+                "const logo = document.getElementById('docs-branding-container'); logo.parentElement.removeChild(logo);",
+                "var cssElements = document.querySelectorAll('#docs-titlebar-container'); for (let i = 0; i < cssElements.length; i++) { cssElements[i].style.marginLeft = '0px'; }",
+                "cssElements = document.querySelectorAll('.docs-menubar'); for (let i = 0; i < cssElements.length; i++) { cssElements[i].style.marginLeft = '0px'; }",
+                "cssElements = document.getElementsByClassName('docs-ml-promotion'); for (let i = 0; i < cssElements.length; i++) { cssElements[i].parentElement.removeChild(cssElements[i]); }",
+            ],
+        },
+        {
+            "app":
+            {
+                "id": 16,
+                "name": "Zoom",
+                "icon": "app.zoom",
+                "enabled": false,
+            },
+            "entryPoint": "",
+            "color": "ffffff",
+            "buttonColor": "ffffff",
+        },
+        {
+            "app":
+            {
+                "id": 17,
+                "name": "Word",
+                "icon": "app.word",
+                "enabled": false,
+            },
+            "entryPoint": "",
+            "color": "ffffff",
+            "buttonColor": "ffffff",
+        },
+        {
+            "app":
+            {
+                "id": 18,
+                "name": "Excel",
+                "icon": "app.excel",
+                "enabled": false,
+            },
+            "entryPoint": "",
+            "color": "ffffff",
+            "buttonColor": "ffffff",
+        },
+    ]
+}
